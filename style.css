@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(36, 34, 34);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 12%;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid deepskyblue;
+}
+
+.logo:hover{
+    color: deepskyblue;
+    text-shadow: 0 0 25px deepskyblue, 0 0 50px deepskyblue;
+    transform: scale(1.1);
+}
+span{
+    color: deepskyblue;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: deepskyblue;
+    border-bottom: 3px solid transparent;
+}
+
+.contact{
+    padding: 10px 28px;
+    font-size: 15px;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: 600;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: deepskyblue;
+    box-shadow: 0 0 25px deepskyblue;
+    color: aliceblue;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 100px 12% 0;
+    gap: 6em;
+}
+
+.home-stuff{
+    max-width: 800px;
+}
+
+.anime{
+    font-size: 45px;
+    line-height: 1.1;
+    position: relative;
+    text-shadow: 0.05em 0 0 rgba(66, 45, 45, 0.75), -0.025em -0.05em 0 rgba(156, 168, 99, 0.75), 0.025em 0.05em 0 rgba(21, 83, 99, 0.75);
+    animation: ease-in;
+}
+.home-stuff p{
+    font-size: 20px;
+    margin: 25px 0 30px;
+}
+.button-box{
+    width:345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn1{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 16px 28px;
+    transition: 0.3s ease;
+}
+
+.btn1:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn2{
+    background-color: deepskyblue;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 16px 28px;
+    transition: 0.3s ease;
+}
+.btn2:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+}
+
+.image-box img{
+    size: 200px;
+    border-block: 50%;
+    width: 550px;
+}
+.image-box:hover{
+    box-shadow: 0 0 25px deepskyblue;
+    border-block: 50%;
+    scale: 1.05;
+    transition: 0.3s ease;
+}
+
+.about{
+    display: flex;
+    padding: 12% 8%;
+    gap: 10em;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}
+
+.ab-img img{
+    size: 200px;
+    position: inherit;
+    width: 550px;
+    border-radius: 50%;
+}
+.ab-img:hover{
+    box-shadow: 0 0 25px deepskyblue;
+    border-radius: 50%;
+    border-block: 50%;
+    scale: 1.05;
+    transition: 0.3s ease;
+}
+
+
+.about h2{
+    color: aliceblue;
+    text-align: left;
+    font-size: 38px;
+}
+
+.about h3{
+    color: aliceblue;
+    font-size: 26px;
+}
+
+.about p{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 1em 0;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .socials{
+    text-align: center;
+    padding-bottom: 24px;
+    color: aliceblue;
+}
+
+.footer .socials a{
+    font-size: 30px;
+    color: aliceblue;
+    border: 3px solid deepskyblue;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 0 5px deepskyblue, 0 0 10px deepskyblue;
+    transition: 0.3s ease;
+}
+
+.footer .socials a:hover{
+    transform: scale(1.2);
+    color: deepskyblue;
+    border: 2px solid deepskyblue;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul lat a{
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul lat a:hover{
+    border-bottom: 2px solid deepskyblue;
+}
+
+.footer ul lat{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyrights{
+    margin-top: 20px;
+    font-size: 14px;
+    color: lightgray;
+    text-align: center;
+    font-size: medium;
+}
+
+.brac-link{
+    color: deepskyblue;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.brac-link:hover{
+    color: aliceblue;
+    border-bottom: 2px solid deepskyblue;
+    text-shadow: 0 0 10px deepskyblue, 0 0 20px deepskyblue;
+}

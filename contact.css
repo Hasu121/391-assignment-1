@@ -1,0 +1,54 @@
+
+.cont-section {
+    padding: 12% 8%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+
+.cont-section h1 {
+    font-size: 38px;
+    color: deepskyblue;
+    margin-bottom: 20px;
+}
+
+.cont-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cont-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+.cont-info p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.cont-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cont-info ul li {
+    margin: 10px 0;
+}
+
+.cont-info ul li a {
+    color: deepskyblue;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.cont-info ul li a:hover {
+    color: rgb(44, 40, 40);
+    border-bottom: 2px solid deepskyblue;
+}
